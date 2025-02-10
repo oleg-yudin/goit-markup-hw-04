@@ -113,13 +113,7 @@ address>ul{
     font-style: normal;
    
 }
-.studiounderline::after{
-    content: "";
-    color: #404bbf;
-    border-radius: 2px;
-        width: 48px;
-        height: 4px;
-}
+
 .address{
         color: #434455;
         font-family: "Roboto", serif;
