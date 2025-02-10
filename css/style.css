@@ -139,11 +139,18 @@ address>ul{
 .cont-one{
     background-color: #2e2f42;
     padding: 188px 0;
-
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+    
+    url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .title-site{
-    background-color: #2E2F42;
         font-family: "Roboto", serif;
         font-optical-sizing: auto;
         font-weight: bold;
@@ -212,6 +219,20 @@ address>ul{
 
 .section-two-list-width{
   width: calc((100% - 72px) / 4)  
+}
+.section-two-list-width-svg{
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+    
+}
+.section-two-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
 }
 .sections-title{
         font-family: "Roboto", serif;
@@ -282,8 +303,23 @@ address>ul{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    
 }
+.section-three-list-svg{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
 
+}
+.section-three-icon:hover,
+.section-three-icon:focus{
+    background-color: red;
+}
 .section-three-text-container{
     padding: 32px 0;
 
