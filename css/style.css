@@ -428,20 +428,24 @@ footer>.container>a{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
+
 .footer{
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.footer-flex{
     display: flex;
     align-items: baseline;
-
 }
+
 .footer-logo-text{
     margin-right: 120px;
+    
 }
-.footer-one{
-    margin-right: 120px;
-}
+
 .logo-footer{
     display: inline-block;
     margin-bottom: 16px;
