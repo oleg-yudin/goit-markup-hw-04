@@ -443,12 +443,16 @@ footer>.container>a{
 .footer-flex{
     display: flex;
     align-items: baseline;
+   
 }
 
-.footer-logo-text{
+
+.footer-one{
     margin-right: 120px;
-    
 }
+    
+    
+
 
 .logo-footer{
     display: inline-block;
